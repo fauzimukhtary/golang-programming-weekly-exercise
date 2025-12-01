@@ -1,0 +1,13 @@
+program kalkulator
+kamus
+	target, masukan, total : integer
+algoritma
+	input(target)
+	total <- 0
+	while total < target do
+		input(masukan)
+		output(masukan)
+		total <- total + masukan
+	endwhile
+	output(total)
+endprogram
